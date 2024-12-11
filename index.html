@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professor Sapão </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1> Professor Sapão ( Capoeira Senzala Rio de Janeiro)</h1>
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
+            <button id="toggle-theme">Mudar Tema</button>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio">
+            <h2>Bem-vindo!</h2>
+            <p>Descubra o universo da capoeira com o Professor Sapão.</p>
+            <!-- Corrigido: CSS inline movido para o atributo style -->
+            <img src="sapao.jpg" alt="Capoeira em ação" style="width: 300px; height: auto; margin-top: 1rem; border-radius: 10px;">
+        </section>
+        <section id="sobre">
+            <h2>Sobre o Professor Sapão</h2>
+            <p>Com mais de 25 anos de experiência, o Professor Sapão é referência no ensino da capoeira infantil e na integração da cultura brasileira.</p>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <form id="contact-form">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Professor Sapão ( Capoeira Senzala Rio de Janeiro). Todos os direitos reservados.</p
